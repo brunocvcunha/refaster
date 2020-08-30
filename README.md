@@ -26,7 +26,7 @@ Copy the file `rules.refaster` to the desired repo, and use it in the target rep
 			<encoding>${project.build.sourceEncoding}</encoding>
 			<compilerArgs>
 				<arg>-XDcompilePolicy=simple</arg>
-				<arg>-Xplugin:ErrorProne -XepPatchChecks:refaster:${maven.multiModuleProjectDirectory}\rules.refaster -XepPatchLocation:IN_PLACE</arg>
+				<arg>-Xplugin:ErrorProne -XepPatchChecks:refaster:${maven.multiModuleProjectDirectory}/rules.refaster -XepPatchLocation:IN_PLACE</arg>
 			</compilerArgs>
 			<annotationProcessorPaths>
 				<path>
